@@ -1,13 +1,13 @@
 // auth login for bnet and psn
 
-import express from 'express'
+const router = require('express').Router
+const rp = require('request-promise')
 
-const router = express.Router()
+module.exports = router
 
 const BUNGIE = "https://www.bungie.net/en/User/Signin/Psnid"
 const PSN = "https://auth.api.sonyentertainmentnetwork.com/login.do"
 const PSN_OAUTH = "https://auth.api.sonyentertainmentnetwork.com/2.0/oauth/authorize"
 
-router.get(BUNGIE, (req, res, next) => {
-	console.log(res)
-}
+rp(BUNGIE)
+	.then(res => console.log(res))
