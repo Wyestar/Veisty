@@ -1,0 +1,21 @@
+{
+  "name": "stackathon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Wyestar/Veisty.git",
+  "author": "Doug Chin <dougmchin@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "connect-session-sequelize": "^5.0.1",
+    "express-session": "^1.15.6",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "sequelize": "^4.22.5",
+    "socket.io": "^2.0.4"
+  }
+}

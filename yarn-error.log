@@ -1,0 +1,42 @@
+Arguments: 
+  /usr/local/bin/node /Users/lianalim/.yarn/bin/yarn.js start
+
+PATH: 
+  /Users/lianalim/.yarn/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  8.2.1
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "stackathon",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/Wyestar/Veisty.git",
+    "author": "Doug Chin <dougmchin@gmail.com>",
+    "license": "MIT"
+    "scripts": {
+      "start": "node server"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /Users/lianalim/senior_phase/stackathon/package.json: Unexpected string in JSON at position 195
+      at JSON.parse (<anonymous>)
+      at /Users/lianalim/.yarn/lib/cli.js:770:59
+      at Generator.next (<anonymous>)
+      at step (/Users/lianalim/.yarn/lib/cli.js:92:30)
+      at /Users/lianalim/.yarn/lib/cli.js:103:13
+      at <anonymous>
