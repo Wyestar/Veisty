@@ -39,6 +39,8 @@ if (process.env.NODE_ENV !== 'production') require('../secrets')
 // 		}
 // 	})
 
+// app.use('/apif', require('./apif'))
+
 app.use('*', (req, res) => {
 	res.sendFile(path.join(__dirname, '..', 'public/index.html'))
 })
