@@ -3,7 +3,7 @@
 // one bnet account can be tied to psn and xbl
 // do we need sony api, or does bnet api take care of that?
 
-// once signed-up, most recent/powerful character is displayed
+// once signed-in, most recent/powerful character is displayed
 // equipped gear is displayed
 // button toggles to show in-pocket gear for those slots
 // auto loadout selection. toggle gear with a lock status, if locked, gear won't be moved to vault. can auto move items up to limit. loadout labelled items in vault(or other characters) will be obtained

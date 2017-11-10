@@ -39,13 +39,6 @@ if (process.env.NODE_ENV !== 'production') require('../secrets')
 // 		}
 // 	})
 
-app.use('/login', (req, res, next) => {
-	rp(BUNGIE)
-		.then( res => {
-			console.log(res);
-		})
-})
-
 app.use('*', (req, res) => {
 	res.sendFile(path.join(__dirname, '..', 'public/index.html'))
 })
