@@ -1,0 +1,25 @@
+// hello, we are here to present veisty. an item manager for bungie's destiny games.
+// an interesting thing about bungie's api, even though it is publicly avaiible,
+// there is no official support.
+// on top of the lack of support, many parts of the api only work in tandem with
+// sony or microsoft, or in 2's case blizzard. as destiny is on those companies
+// platforms, and also utilize their online networks.
+// so there are two layers of apis and authentification, and getting these to
+// cooperate was very challenging.
+
+// fortunately, the whole bungie api is not inaccessible. some functions
+// like moving and equiping items, which are post requests, only work when logged
+// we can access some functionality without logging in. through a string of get
+// requests, from psn name and platformid, to membershipid, charactersid, and a final
+// get with said players character's id, we can get those items.
+
+// for instance, to get my character's gear, unless i have my 'id' which is called
+// 'destinymembershipid' in the api handy, i need to search by user. from username,
+// and platform, we can find said id, then our characters info.
+// with sony or microsoft's api, that one auth login allows access to bungie's servers
+// and databases
+
+// pass to aaron; showcase frontend. omparisons, loadouts, statistical analysis
+
+// pass back to me; conclusion: 'and that's that, it's a work in progress still, but
+// that's veisty so far'
