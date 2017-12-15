@@ -4,6 +4,8 @@ import ReactDOM from 'react-dom'
 // import { Provider } from 'react-redux'
 // import store from'./store'
 import Main from './components/main'
+import './index.scss'
+
 
 ReactDOM.render(
 		<Main />,
